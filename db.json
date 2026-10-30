@@ -1,0 +1,69 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Ananya Rao",
+      "specialization": "Cardiology",
+      "experience": 12,
+      "phone": "9876543210",
+      "email": "ananya@example.com",
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Dr. Rahul Varma",
+      "specialization": "Dermatology",
+      "experience": 8,
+      "phone": "9876543211",
+      "email": "rahul@example.com",
+      "available": true
+    },
+    {
+      "id": "3",
+      "name": "Dr. Meera Das",
+      "specialization": "Pediatrics",
+      "experience": 10,
+      "phone": "9876543212",
+      "email": "meera@example.com",
+      "available": false
+    }
+  ],
+  "patients": [
+    {
+      "id": "1",
+      "name": "Priya Sharma",
+      "age": 28,
+      "gender": "Female",
+      "phone": "9123456780",
+      "email": "priya@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Arjun Kumar",
+      "age": 35,
+      "gender": "Male",
+      "phone": "9123456781",
+      "email": "arjun@example.com"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "patientId": "1",
+      "doctorId": "1",
+      "date": "2026-10-30",
+      "time": "10:30",
+      "reason": "Routine check-up",
+      "status": "Confirmed"
+    },
+    {
+      "id": "2",
+      "patientId": "2",
+      "doctorId": "2",
+      "date": "2026-10-31",
+      "time": "12:00",
+      "reason": "Skin consultation",
+      "status": "Booked"
+    }
+  ]
+}
